@@ -78,8 +78,7 @@ const HeroSection = () => {
             <p className="mt-2  text-sm  md:text-md text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
               full-stack web developer with a strong focus on modern JavaScript
               ecosystems. I specialize in building fast, SEO-friendly, and fully
-              responsive web applications using Next.js, React, TypeScript,
-              Tailwind CSS, MongoDB & Mongoose.
+              responsive web applications using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
             </p>
           </div>
         </ScrollReveal>
@@ -90,7 +89,7 @@ const HeroSection = () => {
             <Typewriter
               words={[
                 "I'm a Full Stack Developer.",
-                "I'm a UI/UX Designer.",
+                "Building modern & responsive websites.",
                 "I'm a Tech Enthusiast.",
               ]}
               typeSpeed={65}
