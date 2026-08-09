@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HiBars3 } from "react-icons/hi2";
+import { SiJrgroup } from "react-icons/si";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,7 +26,7 @@ const Header = () => {
         {/* logo */}
         <Link href="/" className="text-3xl font-extrabold text-[#7e22ce]">
           {" "}
-          ∑{" "}
+          <SiJrgroup />{" "}
         </Link>
 
         {/* desktop naviation menu */}
