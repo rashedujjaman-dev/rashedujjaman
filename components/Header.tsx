@@ -24,7 +24,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* logo */}
-        <Link href="/" className="text-3xl font-extrabold text-[#7e22ce]">
+        <Link href="/" className="text-3xl font-extrabold text-white/80">
           {" "}
           <SiJrgroup />{" "}
         </Link>

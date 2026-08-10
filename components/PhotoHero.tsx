@@ -74,7 +74,7 @@ const PhotoHero = () => {
               key={index}
               cx="253"
               cy="253"
-              r={240 - index * 15}
+              r={243 - index * 15}
               stroke={color}
               strokeWidth="4"
               strokeLinecap="round"

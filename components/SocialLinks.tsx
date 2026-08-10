@@ -12,11 +12,12 @@ import { twMerge } from "tailwind-merge";
 
 const linksData = [
   { icon: <FaGithub />, href: "http://github.com/rashedujjaman-dev" },
-  { icon: <FaFacebook />, href: "http://facebook.com./rashedujjaman.dev" },
+  
   { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/rashedujjaman-dev" },
   { icon: <FaX />, href: "https://x.com/rashedjaman_dev" },
   // { icon: <FaInstagram />, href: "https://www.instagram.com/rashedjamanraj" },
   {icon: <FaWhatsapp />, href: "https://wa.me/rashedujjaman.dev"}, 
+  { icon: <FaFacebook />, href: "http://facebook.com./rashedujjaman.dev" },
   // {icon: <FaTelegram />, href: "https://t.me/rashedjamanraj"}, 
 ];
 

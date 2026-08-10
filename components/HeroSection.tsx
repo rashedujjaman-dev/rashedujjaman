@@ -26,9 +26,9 @@ const HeroSection = () => {
               <PhotoHero />
 
               {/* small greeting with curve arrow */}
-              <div className="select-none pointer-events-none absolute -top-8 -right-6 md:-top-16 md:-right-40 text-xs text-white/70">
+              <div className="select-none pointer-events-none absolute -top-8 -right-6 md:-top-16 md:-right-54 text-xs text-white/70">
                 <div className="relative flex items-center justify-end">
-                  <div className="relative w-16 h-6 md:w-24 md:h-24">
+                  <div className="relative w-16 h-6 md:w-22 md:h-22">
                     <Image
                       src="/images/hero-arrow.png"
                       alt="arrow image"
@@ -37,7 +37,7 @@ const HeroSection = () => {
                       priority
                     />
                   </div>
-                  <div className="text-2xl -mt-6 md:-mt-10 shrink-0">
+                  <div className="text-3xl -mt-5 md:-mt-10 shrink-0">
                     <span>Hello! I am </span>
                     <span className="text-[#a78bfa]">Rashedujjaman</span>
                   </div>
@@ -48,9 +48,8 @@ const HeroSection = () => {
 
           {/* headline */}
           <div className="md:pl-2 text-center md:text-left">
-            <p className="text-2xl md:text-3xl  mb-2">
-              Full-Stack Web Apps & Websites Developer | Next.js, React,
-              TypeScript, Tailwindcss, MongoDB.
+            <p className="text-2xl md:text-2xl  mb-8">
+              Full-stack JavaScript developer| I specialize in building strong focus, SEO-friendly, fully responsive web applications & Superior Software for Leading Businesses using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
             </p>
 
             <h1 className="text-2xl sm:text-2xl font-normal tracking-tight leading-[1.15] text-white/70">
@@ -61,7 +60,7 @@ const HeroSection = () => {
                   <span className="relative z-10 text-[#7127BA]">
                     global businesses
                   </span>
-                  <span className="pointer-events-none absolute -inset-x-2 -inset-y-2 translate-y-1 -z-10 rotate-12">
+                  <span className="pointer-events-none absolute -inset-x-2  -inset-y-2 translate-y-1 -z-10 rotate-12">
                     <Image
                       src="/images/ellipse.png"
                       alt="arrow"
@@ -75,7 +74,7 @@ const HeroSection = () => {
               </span>
             </h1>
 
-            <p className="mt-2  text-sm  md:text-md text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
+            <p className="mt-8  text-sm  md:text-md text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
               full-stack web developer with a strong focus on modern JavaScript
               ecosystems. I specialize in building fast, SEO-friendly, and fully
               responsive web applications using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
@@ -101,13 +100,13 @@ const HeroSection = () => {
             />
           </h2>
           <div className="flex items-center justify-center gap-3 py-5 ">
-            <p>Currently, I'm a Web Developer at </p>
+            <p>Currently, I'm a Full-stack JavaScript developer at </p>
               <LuMoveRight size={30} />           
             <SocialLinks />
           </div>
 
           <p className="mt-6 text-white/70 leading-7">
-           Build full-featured web apps (e-commerce, dashboards, financial tools). Clean, maintainable, and scalable code with TypeScript. 100% responsive design — flawless on mobile, tablet, and desktop. SEO-optimized architecture for better search engine ranking.  I ensure your site runs smoothly.
+           Build full-featured web apps (e-commerce, dashboards, financial tools). Clean, maintainable, and scalable code with TypeScript. ImplementAuthentication systems with NextAuth.js, OAuth & JWT.Optimize images & media management with Cloudinary. Database modeling using Mongoose & MongoDB. 100% responsive design — flawless on mobile, tablet, and desktop. SEO-optimized architecture for better search engine ranking.  I ensure your site runs smoothly.
            </p>
         </ScrollReveal>
       </div>
