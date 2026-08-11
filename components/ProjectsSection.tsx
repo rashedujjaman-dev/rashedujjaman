@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal'
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className='relative py-28 space-y-24'>
+    <section id="projects" className='relative py-28 space-y-24 max-w-7xl mx-auto px-5 md:px-10'>
         <div>
             <div className='pointer-events-none absolute right-0 left-1/3 top-8 -z-10 h-105 opacity-40 blur-3xl'
             style={{
@@ -79,7 +79,7 @@ const ProjectsSection = () => {
                 <div className='relative md:order-1'>
                     <div tabIndex={0} className='group cursor-pointer rounded-2xl overflow-hidden bg-[#0f061c] border border-[#2f1c55] shadow-[0_0_90px_rgba(168, 85, 247, 0.28)] transition-transform duration-300 hover:-translate-y-1 focus:-translate-y-1'>
                         <div className='overflow-hidden md:h-90 h-62.5'>
-                            <Image src="/images/portfolio-picmy.png" alt='portflio-1' width={582} height={640} className='w-full h-auto transition-transform duration-3500 ease-linear group-hover:-translate-y-[55%] group-active:-translate-y-[55%] group-focus:-translate-y-[55%]'/>
+                            <Image src="/images/portfolio-picmy.png" alt='portflio-1' width={582} height={640} className='w-full h-auto transition-transform duration-3500 ease-linear group-hover:translate-y-[-55%] group-active:translate-y-[-55%] group-focus:translate-y-[-55%]'/>
                         </div>
                     </div>
                 </div>

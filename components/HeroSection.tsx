@@ -12,7 +12,7 @@ import { LuMoveRight } from "react-icons/lu";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative pt-28 pb-24 px-5 md:px-10">
+    <section id="home" className="max-w-7xl mx-auto relative pt-28 pb-24 px-5 md:px-10">
       <div className="mt-12 md:mt-24">
         {/* avatar and headline */}
         <ScrollReveal
@@ -21,7 +21,7 @@ const HeroSection = () => {
         >
           {/* avatar and greetings */}
           <div className="relative flex justify-center md:justify-end">
-            <div className="pointer-events-none absolute -inset-12 md:-inset-24 rounded-full bg-linear-to-b from-[#7c3aed] vai-[#6d28d9]/30 to-transparent blur-3xl opacity-90"></div>
+            <div className="pointer-events-none absolute -inset-7 md:-inset-24 rounded-full bg-linear-to-b from-[#7c3aed] vai-[#6d28d9]/30 to-transparent blur-3xl opacity-90"></div>
             <div className="relative">
               <PhotoHero />
 
@@ -37,7 +37,7 @@ const HeroSection = () => {
                       priority
                     />
                   </div>
-                  <div className="text-3xl -mt-5 md:-mt-10 shrink-0">
+                  <div className=" text-3xl -mt-5 md:-mt-10 shrink-0">
                     <span>Hello! I am </span>
                     <span className="text-[#a78bfa]">Rashedujjaman</span>
                   </div>

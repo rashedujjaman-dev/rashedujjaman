@@ -38,11 +38,12 @@ const Header = () => {
             Home
           </Link>
           <Link
-            href="#about"
+            href="#projects"
             className="hover:text-[#a855f7] transition duration-200"
           >
-            About
+            Works
           </Link>
+          
           <Link
             href="#lab"
             className="hover:text-[#a855f7] transition duration-200"
@@ -50,11 +51,12 @@ const Header = () => {
             Lab
           </Link>
           <Link
-            href="#projects"
+            href="#about"
             className="hover:text-[#a855f7] transition duration-200"
           >
-            Projects
+            About
           </Link>
+          
           <Link
             href="#contact"
             className="hover:text-[#a855f7] transition duration-200"
@@ -83,12 +85,13 @@ const Header = () => {
               Home
             </Link>
             <Link
-              href="#about"
-              className="hover:text-[#a855f7] transition duration-200"
+              href="#projects"
                   onClick={() => setIsOpen(false)}
+              className="hover:text-[#a855f7] transition duration-200"
             >
-              About
+              Works
             </Link>
+            
             <Link
               href="#lab"
               className="hover:text-[#a855f7] transition duration-200"
@@ -97,12 +100,13 @@ const Header = () => {
               Lab
             </Link>
             <Link
-              href="#projects"
-                  onClick={() => setIsOpen(false)}
+              href="#about"
               className="hover:text-[#a855f7] transition duration-200"
+                  onClick={() => setIsOpen(false)}
             >
-              Projects
+              About
             </Link>
+            
             <Link
               href="#contact"
                   onClick={() => setIsOpen(false)}
