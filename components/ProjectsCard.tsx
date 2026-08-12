@@ -237,9 +237,10 @@ const SelectedWorks = () => {
                     </h3>
                   </div>
 
-                  <div
+                  <a
+                    href={project.link}
                     className="
-                      flex h-10 w-10 shrink-0
+                      md:hidden flex h-10 w-10 shrink-0
                       items-center justify-center
                       rounded-full
                       bg-violet-50
@@ -250,7 +251,7 @@ const SelectedWorks = () => {
                     "
                   >
                     <LuArrowUpRight size={18} />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
