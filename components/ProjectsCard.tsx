@@ -15,56 +15,56 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Shoplix — Full Stack E-commerce",
+    title: "Shoplix — E-commerce",
     category: "E-COMMERCE",
     description:
       "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
-    image: "images/github-cover.png",
+    image: "images/shoplix.png",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
     link: "https://food-flavor-smoky.vercel.app/",
   },
   {
-    title: "Taqwa Savings — Financial Web App",
-    category: "FINANCIAL PLATFORM",
+    title: "E-commerce Made - E-commerce Platform",
+    category: "E-commerce",
     description:
       "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
-    image: "/projects/taqwa.png",
+    image: "images/ecommercemade.png",
     technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
     link: "#",
   },
   {
-    title: "Tarnix — Admin Dashboard",
-    category: "ADMIN DASHBOARD",
+    title: "ClassyBuy — A modern E-COMMERCE",
+    category: "E-COMMERCE",
     description:
       "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
-    image: "/projects/tarnix.png",
+    image: "images/classybuy.png",
     technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
     link: "#",
   },
   {
-    title: "fgfdgfdg",
+    title: "R aj Furniture A modern E-COMMERCE Website",
     category: "E-COMMERCE",
     description:
       "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
-    image: "images/github-cover.png",
+    image: "images/rajfurniture.png",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
     link: "https://food-flavor-smoky.vercel.app/",
   },
   {
-    title: "fgfgfg",
-    category: "FINANCIAL PLATFORM",
+    title: "Food Flavor - A modern E-COMMERCE Website",
+    category: "E-COMMERCE",
     description:
       "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
-    image: "/projects/taqwa.png",
+    image: "images/foodflavor.png",
     technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
     link: "#",
   },
   {
-    title: "fgfdgdfggdfg",
-    category: "sdwerwerwr",
+    title: "Raj Plus - E-COMMERCE web applications ",
+    category: "E-COMMERCE",
     description:
       "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
-    image: "/projects/tarnix.png",
+    image: "images/rajplus.png",
     technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
     link: "#",
   },
@@ -186,7 +186,7 @@ const SelectedWorks = () => {
                 "
               >
                 {/* Image */}
-                <div className="relative aspect-[1.80/1] overflow-hidden">
+                <div className="relative w-full overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
