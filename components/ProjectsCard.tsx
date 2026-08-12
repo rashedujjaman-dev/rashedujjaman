@@ -58,7 +58,7 @@ const projects: Project[] = [
     image: "images/foodflavor.png",
     technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
     link: "#",
-  },
+  }, 
   {
     title: "Raj Plus - E-COMMERCE web applications ",
     category: "E-COMMERCE",
@@ -97,7 +97,7 @@ const SelectedWorks = () => {
               key={project.title}
               className="group relative pt-0"
             >
-              {/* Popup */}
+              {/* Popup menu */}
               <div
                 className="
                   pointer-events-none absolute
