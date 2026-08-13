@@ -74,7 +74,7 @@ const SelectedWorks = () => {
   return (
     <section
       id="projects"
-      className="w-full text-white/70 px-5 py-16 sm:px-8 lg:px-10"
+      className="w-full px-5 py-16 sm:px-8 lg:px-10"
     >
       <div className="mx-auto max-w-[1500px]">
         {/* Header */}
@@ -83,7 +83,7 @@ const SelectedWorks = () => {
             Selected Works
           </h2>
 
-          <p className="mt-3 max-w-[1150px] text-sm leading-7 text-slate-600 sm:text-base">
+          <p className="mt-3 max-w-[1150px] text-sm leading-7 text-slate-300 sm:text-base">
             A collection of real-world Next.js full-stack projects showcasing
             scalable web applications, production-ready systems, and custom
             internal tools built with modern technologies.
