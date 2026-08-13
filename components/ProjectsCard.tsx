@@ -74,7 +74,7 @@ const SelectedWorks = () => {
   return (
     <section
       id="projects"
-      className="w-full bg-[#f9f8ff] px-5 py-16 sm:px-8 lg:px-10"
+      className="w-full bg-[#f9f8ff] px-5 py-16 md:px-8"
     >
       <div className="mx-auto max-w-[1500px]">
         {/* Header */}
