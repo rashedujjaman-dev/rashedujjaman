@@ -74,16 +74,16 @@ const SelectedWorks = () => {
   return (
     <section
       id="projects"
-      className="w-full bg-[#f9f8ff] px-5 py-16 md:px-8"
+      className="w-full px-5 py-16 md:px-8"
     >
-      <div className="mx-auto max-w-[1500px]">
+      <div className="mx-auto max-w-375">
         {/* Header */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold tracking-wide text-[#5b21b6] sm:text-3xl">
             Selected Works
           </h2>
 
-          <p className="mt-3 max-w-[1150px] text-sm leading-7 text-slate-600 sm:text-base">
+          <p className="mt-3 max-w-287.5 text-sm leading-7 text-slate-400/85 sm:text-base">
             A collection of real-world Next.js full-stack projects showcasing
             scalable web applications, production-ready systems, and custom
             internal tools built with modern technologies.
@@ -91,7 +91,7 @@ const SelectedWorks = () => {
         </div>
 
         {/* Projects */}
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-15 md:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={project.title}
