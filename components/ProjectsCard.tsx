@@ -83,7 +83,7 @@ const SelectedWorks = () => {
             Selected Works
           </h2>
 
-          <p className="mt-3 max-w-[1150px] text-sm leading-7 text-slate-400 sm:text-base">
+          <p className="mt-3 max-w-[1150px] text-sm leading-7 text-slate-400/90 sm:text-base">
             A collection of real-world Next.js full-stack projects showcasing
             scalable web applications, production-ready systems, and custom
             internal tools built with modern technologies.
