@@ -12,7 +12,7 @@ import { LuMoveRight } from "react-icons/lu";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="max-w-7xl mx-auto relative pt-28 pb-24 px-5 md:px-10">
+    <section id="home" className="max-w-7xl mx-auto relative pt-28 pb-24 px-5 md:px-15">
       <div className="mt-12 md:mt-24">
         {/* avatar and headline */}
         <ScrollReveal
@@ -74,7 +74,7 @@ const HeroSection = () => {
               </span>
             </h1>
 
-            <p className="mt-8  text-sm  md:text-md text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
+            <p className="mt-8  text-base md:text-lg text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
               full-stack web developer with a strong focus on modern JavaScript
               ecosystems. I specialize in building fast, SEO-friendly, and fully
               responsive web applications using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
@@ -88,8 +88,8 @@ const HeroSection = () => {
             <Typewriter
               words={[
                 "I'm a Full Stack Developer.",
-                "Building modern & responsive websites.",
                 "I'm a Tech Enthusiast.",
+                "Building modern & responsive Web Apps & websites.",
               ]}
               typeSpeed={65}
               deleteSpeed={0}

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HiBars3 } from "react-icons/hi2";
@@ -22,12 +23,18 @@ const Header = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 py-4 flex items-center justify-between">
         {/* logo */}
         <Link href="/" className="text-3xl font-extrabold text-white/80">
-          {" "}
-          <SiJrgroup />{" "}
-        </Link>
+  <Image
+    src="/images/LogoBest.png"
+    alt="Logo"
+    width={56}
+    height={56}
+    priority
+    className="h-14 w-14 cursor-pointer"
+  />
+</Link>
 
         {/* desktop naviation menu */}
         <nav className="hidden md:flex space-x-10 font-medium text-lg text-white/80">
@@ -75,7 +82,7 @@ const Header = () => {
 
       {/* mobile menu  */}
       {isOpen && (
-        <div className="md:hidden px-6 pb-4">
+        <div className="md:hidden px-5 pb-4">
           <div className="flex flex-col gap-3 text-base font-medium text-white/80">
             <Link
               href="#home"

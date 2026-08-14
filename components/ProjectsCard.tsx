@@ -42,31 +42,31 @@ const projects: Project[] = [
     link: "#",
   },
   {
-    title: "R aj Furniture A modern E-COMMERCE Website",
+    title: "Raj Furniture A modern E-COMMERCE Website",
     category: "E-COMMERCE",
     description:
-      "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
+      "A modern e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
     image: "images/rajfurniture.png",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
-    link: "https://food-flavor-smoky.vercel.app/",
+    link: "https://stellular-dragon-7999f8.netlify.app/",
   },
   {
     title: "Food Flavor - A modern E-COMMERCE Website",
     category: "E-COMMERCE",
     description:
-      "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
+      "A modern e-commerce  for managing products, orders,  categories and business analytics from one place.",
     image: "images/foodflavor.png",
-    technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
-    link: "#",
+    technologies: ["React",   "Tailwind"],
+    link: "https://food-flavor-smoky.vercel.app/",
   }, 
   {
     title: "Raj Plus - E-COMMERCE web applications ",
     category: "E-COMMERCE",
     description:
-      "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
+      "A modern e-commerce  for managing products, orders,  categories and business analytics from one place.",
     image: "images/rajplus.png",
-    technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
-    link: "#",
+    technologies: ["JavaScript",  "Css"],
+    link: "https://slideshow-brown.vercel.app",
   },
 ];
 
@@ -74,9 +74,9 @@ const SelectedWorks = () => {
   return (
     <section
       id="projects"
-      className="w-full px-5 py-16 md:px-8"
+      className="max-w-7xl mx-auto px-5 md:px-15 py-16"
     >
-      <div className="mx-auto max-w-375">
+      <div className="max-w-375">
         {/* Header */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold tracking-wide text-[#5b21b6] sm:text-3xl">
@@ -91,17 +91,17 @@ const SelectedWorks = () => {
         </div>
 
         {/* Projects */}
-        <div className="grid grid-cols-1 gap-15 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-15  md:grid-cols-2 ">
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className="group relative pt-0"
+              className="group relative  pt-0"
             >
               {/* Popup menu */}
               <div
                 className="
                   pointer-events-none absolute
-                  -bottom-50 left-1/2 z-20
+                  -bottom-57.5 left-1/2 z-20
                   w-[calc(100%-24px)]
                   -translate-x-1/2
                   translate-y-6
@@ -113,19 +113,19 @@ const SelectedWorks = () => {
                   group-hover:opacity-100
                 "
               >
-                <div className="rounded-2xl border border-violet-200 bg-white/95 p-5 shadow-[0_20px_60px_rgba(91,33,182,0.18)] backdrop-blur-md">
+                <div className="rounded-2xl border border-violet-200 bg-[#0b0416] p-5 shadow-[0_20px_60px_rgba(91,33,182,0.18)] backdrop-blur-md">
                   {/* Category */}
-                  <p className="text-xs font-semibold tracking-widest text-violet-700">
+                  <p className="text-xs font-semibold tracking-widest text-violet-600">
                     {project.category}
                   </p>
 
                   {/* Title */}
-                  <h3 className="mt-2 text-lg font-bold text-slate-900">
+                  <h3 className="mt-2 text-lg font-bold text-slate-400">
                     {project.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="mt-2 text-sm leading-6 text-slate-600">
+                  <p className="mt-2 text-sm leading-6 text-slate-400">
                     {project.description}
                   </p>
 
@@ -134,7 +134,7 @@ const SelectedWorks = () => {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-violet-200 bg-violet-50 px-3 py-1 text-xs font-medium text-violet-700"
+                        className="rounded-full border border-violet-200 bg-violet-300 px-3 py-1 text-xs font-medium text-violet-800"
                       >
                         {tech}
                       </span>
@@ -167,7 +167,7 @@ const SelectedWorks = () => {
                       h-4 w-4 -translate-x-1/2
                       rotate-45 border-b border-r
                       border-violet-200
-                      bg-white
+                      bg-violet-950
                     "
                   />
                 </div>

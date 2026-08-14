@@ -38,7 +38,7 @@ const experienceItems: ExperienceItem[] = [
 
 const WorkExperience = () => {
   return (
-    <section id="about" className="max-w-7xl mx-auto px-5 md:px-10 relative py-24">
+    <section id="about" className="max-w-7xl mx-auto px-5 md:px-15 relative py-24">
       {/* glow effect */}
       <div
         className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2  w-[90vw] sm:w-190 md:w-250 h-70 sm:h-95 md:h-130 opacity-40 blur-3xl"

@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal'
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className='relative py-28 space-y-24 max-w-7xl mx-auto px-5 md:px-10'>
+    <section id="projects" className='relative py-28 space-y-24 max-w-7xl mx-auto px-5 md:px-15'>
         <div>
             <div className='pointer-events-none absolute right-0 left-1/3 top-8 -z-10 h-105 opacity-40 blur-3xl'
             style={{
