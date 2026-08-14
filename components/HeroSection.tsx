@@ -38,7 +38,7 @@ const HeroSection = () => {
                     />
                   </div>
                   <div className=" text-3xl -mt-5 md:-mt-10 shrink-0">
-                    <span>Hello! I am </span>
+                    <span className=" not-dark:text-slate-500 ">Hello! I am </span>
                     <span className="text-[#a78bfa]">Rashedujjaman</span>
                   </div>
                 </div>
@@ -48,11 +48,11 @@ const HeroSection = () => {
 
           {/* headline */}
           <div className="md:pl-2 text-center md:text-left">
-            <p className="text-2xl md:text-2xl  mb-8">
+            <p className="text-2xl md:text-2xl mb-8">
               Full-stack JavaScript developer| I specialize in building strong focus, SEO-friendly, fully responsive web applications & Superior Software for Leading Businesses using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
             </p>
 
-            <h1 className="text-2xl sm:text-2xl font-normal tracking-tight leading-[1.15] text-white/70">
+            <h1 className="text-2xl sm:text-2xl font-normal tracking-tight leading-[1.15] not-dark:text-slate-600 text-slate-300">
               <span className="block"> Building modern, responsive & </span>
               <span className="block">
                 high-converting web apps & websites for{" "}
@@ -74,7 +74,7 @@ const HeroSection = () => {
               </span>
             </h1>
 
-            <p className="mt-8  text-base md:text-lg text-white/70 max-w-md md:max-w-lg mx-auto md:mx-0">
+            <p className="mt-8  text-base md:text-lg not-dark:text-slate-600 text-slate-300 max-w-md md:max-w-lg mx-auto md:mx-0">
               full-stack web developer with a strong focus on modern JavaScript
               ecosystems. I specialize in building fast, SEO-friendly, and fully
               responsive web applications using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
@@ -105,7 +105,7 @@ const HeroSection = () => {
             <SocialLinks />
           </div>
 
-          <p className="mt-6 text-white/70 leading-7">
+          <p className="mt-6 not-dark:text-slate-600 text-slate-300 leading-7">
            Build full-featured web apps (e-commerce, dashboards, financial tools). Clean, maintainable, and scalable code with TypeScript. ImplementAuthentication systems with NextAuth.js, OAuth & JWT.Optimize images & media management with Cloudinary. Database modeling using Mongoose & MongoDB. 100% responsive design — flawless on mobile, tablet, and desktop. SEO-optimized architecture for better search engine ranking.  I ensure your site runs smoothly.
            </p>
         </ScrollReveal>
