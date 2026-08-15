@@ -121,7 +121,7 @@ const WorkExperience = () => {
       />
 
       <div className="relative">
-        <h3 className="mb-8 text-2xl font-semibold text-white/90 md:text-3xl">
+        <h3 className="mb-8 text-2xl font-semibold text-violet-600 dark:text-violet-500 md:text-3xl">
           Work Experience
         </h3>
 
@@ -132,7 +132,7 @@ const WorkExperience = () => {
           {experienceItems.map((item, index) => (
             <article
               key={index}
-              className="group relative overflow-hidden rounded-2xl border border-[#2f1c55] bg-[#140a26] p-5 shadow-[0_10px_40px_rgba(113,39,186,0.25)] transition-all duration-300 hover:-translate-y-1 hover:border-[#7c3aed]/60 hover:shadow-[0_20px_60px_rgba(113,39,186,0.40)] md:p-7"
+              className="group relative overflow-hidden rounded-2xl border dark:border-[#2f1c55] dark:bg-[#140a26] dark:border-[#2f1c55] bg-violet-100 border-violet-200 p-5 shadow-[0_10px_40px_rgba(113,39,186,0.25)] transition-all duration-300 hover:-translate-y-1 hover:border-[#7c3aed]/60 hover:shadow-[0_20px_60px_rgba(113,39,186,0.40)] md:p-7"
             >
               {/* Card Gradient */}
               <div
@@ -157,20 +157,20 @@ const WorkExperience = () => {
 
                 {/* Content */}
                 <div className="w-full">
-                  <h4 className="mt-2 mb-3 text-center text-base font-semibold text-white  sm:text-left sm:text-lg md:text-xl">
+                  <h4 className="mt-2 mb-3 text-center text-base font-semibold text-slate-700 dark:text-slate-400  sm:text-left sm:text-lg md:text-xl">
                     {item.title}
                   </h4>
 
                   {/* Description */}
                   {item.description && (
-                    <p className=" text-lg md:text-base leading-6 text-white/60 ">
+                    <p className=" text-lg md:text-base leading-6 text-slate-700 dark:text-slate-400 ">
                       {item.description}
                     </p>
                   )}
 
                   {/* Intro */}
                   {item.intro && (
-                    <p className="text-center text-base leading-6 text-white/60  ">
+                    <p className="text-center text-base leading-6 text-slate-700 dark:text-slate-400   ">
                       {item.intro}
                     </p>
                   )}
@@ -178,7 +178,7 @@ const WorkExperience = () => {
                   {/* Paragraph */}
                   {item.paragraph && (
                     <p className="mt-3 text-center text-base 
-                    leading-6 text-white/60 sm:text-left ">
+                    leading-6 text-slate-700 dark:text-slate-400  sm:text-left ">
                       {item.paragraph}
                     </p>
                   )}
@@ -186,7 +186,7 @@ const WorkExperience = () => {
                   {/* Expertise */}
                   {item.expertise && item.expertise.length > 0 && (
                     <div className="mt-4">
-                      <p className="mb-3 text-lg font-semibold text-white/90 md:text-lg">
+                      <p className="mb-3 text-lg font-semibold text-slate-700 dark:text-slate-400  md:text-lg">
                         {item.title === "Work Experience"
                           ? "Key Responsibilities"
                           : "My Expertise Includes"}
@@ -196,7 +196,7 @@ const WorkExperience = () => {
                         {item.expertise.map((skill, skillIndex) => (
                           <li
                             key={skillIndex}
-                            className="flex items-start gap-3 text-base leading-5 text-white/60 "
+                            className="flex items-start gap-3 text-base leading-5 text-slate-700 dark:text-slate-400 "
                           >
                             <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-violet-400" />
                             <span>{skill}</span>
@@ -212,7 +212,7 @@ const WorkExperience = () => {
                       {item.skills.map((skill, skillIndex) => (
                         <li
                           key={skillIndex}
-                          className="flex items-center gap-3 text-base text-white/70 "
+                          className="flex items-center gap-3 text-base text-slate-700 dark:text-slate-400  "
                         >
                           <span className="h-2 w-2 shrink-0 rounded-full bg-violet-400" />
                           <span>{skill}</span>
@@ -223,14 +223,14 @@ const WorkExperience = () => {
 
                   {/* Closing */}
                   {item.closing && (
-                    <p className="mt-4 text-base leading-6 text-white/60 ">
+                    <p className="mt-4 text-base leading-6 text-slate-700 dark:text-slate-400  ">
                       {item.closing}
                     </p>
                   )}
 
                   {/* Contact */}
                   {item.contact && (
-                    <p className="mt-3 text-base leading-6 text-white/60 ">
+                    <p className="mt-3 text-base leading-6 text-slate-700 dark:text-slate-400  ">
                       {item.contact}
                     </p>
                   )}

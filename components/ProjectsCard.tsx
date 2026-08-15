@@ -79,13 +79,12 @@ const SelectedWorks = () => {
       <div className="max-w-375">
         {/* Header */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold tracking-wide text-[#5b21b6] sm:text-3xl">
+          <h2 className="text-2xl font-bold tracking-wide text-violet-600 dark:text-violet-500 sm:text-3xl">
             Selected Works
           </h2>
 
-          <p className="mt-3 max-w-287.5 text-sm leading-7 not-dark:text-slate-500 text-slate-400/85 sm:text-base">
-            A collection of real-world Next.js full-stack projects showcasing
-            scalable web applications, production-ready systems, and custom
+          <p className="mt-3 max-w-287.5 text-sm leading-7 not-dark:text-slate-600 text-slate-300 sm:text-base">
+            A collection of real-world Next.js, React, TypeScript, Tailwind CSS, NextAuth, MongoDB & Mongoose full-stack projects The application is optimized for speed, scalability, SEO Friendly, and a smooth experience across desktop, tablet, and mobile devices, production-ready systems, and custom
             internal tools built with modern technologies.
           </p>
         </div>

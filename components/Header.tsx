@@ -19,13 +19,13 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
         isScrolled || isOpen
-          ? "bg-[#0b0416]/70 backdrop-blur-md shadow-[0_0_40px_rgba(113, 39, 186, 0.20)]"
+          ? " bg-white/80 dark:bg-[#0b0416]/70 border-b border-b-violet-200  dark:border-b-slate-800 backdrop-blur-md shadow-[0_0_40px_rgba(113, 39, 186, 0.20)]"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 md:px-10 py-4 flex items-center justify-between">
         {/* logo */}
-        <Link href="/" className="text-3xl font-extrabold text-white/80">
+        <Link href="/" className="text-3xl font-extrabold ">
   <Image
     src="/images/LogocolorBest.png"
     alt="Logo"
@@ -37,7 +37,7 @@ const Header = () => {
 </Link>
 
         {/* desktop naviation menu */}
-        <nav className="hidden md:flex space-x-10 font-medium text-lg text-white/80">
+        <nav className="hidden md:flex space-x-10 font-medium text-lg text-slate-700 dark:text-slate-300">
           <Link
             href="#home"
             className="hover:text-[#a855f7] transition duration-200"
