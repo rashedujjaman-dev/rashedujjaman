@@ -21,7 +21,7 @@ const projects: Project[] = [
       "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
     image: "images/shoplix.png",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
-    link: "https://food-flavor-smoky.vercel.app/",
+    link: "https://shoplix-nine.vercel.app/",
   },
   {
     title: "E-commerce Made - E-commerce Platform",
@@ -30,7 +30,7 @@ const projects: Project[] = [
       "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
     image: "images/ecommercemade.png",
     technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
-    link: "#",
+    link: "https://ecommerce-made.vercel.app/",
   },
   {
     title: "ClassyBuy — A modern E-COMMERCE",
@@ -39,7 +39,7 @@ const projects: Project[] = [
       "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
     image: "images/classybuy.png",
     technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
-    link: "#",
+    link: "https://classybuy.vercel.app/",
   },
   {
     title: "Raj Furniture A modern E-COMMERCE Website",
