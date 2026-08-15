@@ -202,7 +202,7 @@ const SelectedWorks = () => {
                   <div
                     className="
                       absolute inset-0
-                      bg-gradient-to-t
+                      bg-linear-to-t
                       from-black/20 via-transparent to-transparent
                       opacity-0
                       transition-opacity duration-500

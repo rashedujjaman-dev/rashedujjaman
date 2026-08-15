@@ -27,7 +27,7 @@ const Header = () => {
         {/* logo */}
         <Link href="/" className="text-3xl font-extrabold text-white/80">
   <Image
-    src="/images/LogoBestrj.png"
+    src="/images/LogocolorBest.png"
     alt="Logo"
     width={56}
     height={56}
@@ -74,7 +74,7 @@ const Header = () => {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 rounded  text-slate-400 hover:text-[#a855f7] trasition duration-200 cursor-pointer"
+          className="md:hidden p-2 rounded  text-slate-400 hover:text-[#a855f7] transition duration-200 cursor-pointer"
         >
           <HiBars3 className="size-10" />
         </button>
