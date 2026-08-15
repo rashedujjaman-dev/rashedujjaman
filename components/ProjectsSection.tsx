@@ -16,7 +16,7 @@ const ProjectsSection = () => {
                     {/* heading */}
                     <div className='mb-12'>
                         <p className='text-xl font-semibold text-violet-600 dark:text-violet-400'>Featured Project</p>
-                        <h3 className='text-2xl md:text-3xl font-semibold text-white/90'>Example Project</h3>
+                        <h3 className='text-2xl md:text-3xl font-semibold  text-slate-600 dark:text-slate-50'>Example Project</h3>
                     </div>
 
                     {/* description */}
@@ -28,9 +28,9 @@ const ProjectsSection = () => {
                         }}
                         />
                     </div>
-                    <div className='mt-6 ml-2 flex justify-start space-x-3 text-white/60'>
-                        <span>*</span>
-                        <span>*</span>
+                    <div className='mt-6 ml-2 flex justify-start space-x-3 '>
+                        <span className='text-slate-600 dark:text-slate-50'>*</span>
+                        <span className='text-slate-600 dark:text-slate-50'>*</span>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ const ProjectsSection = () => {
                     {/* heading */}
                     <div className='mb-12 text-right'>
                         <p className='text-xl font-semibold text-violet-600 dark:text-violet-400'>Featured Project</p>
-                        <h3 className='text-2xl md:text-3xl font-semibold text-white/90'>Example Project</h3>
+                        <h3 className='text-2xl md:text-3xl font-semibold text-slate-600 dark:text-slate-50'>Example Project</h3>
                     </div>
 
                     {/* description */}
@@ -70,8 +70,8 @@ const ProjectsSection = () => {
                         />
                     </div>
                     <div className='mt-6 ml-2 flex justify-end space-x-3 text-white/60'>
-                        <span>*</span>
-                        <span>*</span>
+                        <span className='text-slate-600 dark:text-slate-50'>*</span>
+                        <span className='text-slate-600 dark:text-slate-50'>*</span>
                     </div>
                 </div>
 

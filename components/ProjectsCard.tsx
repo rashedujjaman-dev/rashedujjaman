@@ -112,19 +112,19 @@ const SelectedWorks = () => {
                   group-hover:opacity-100
                 "
               >
-                <div className="rounded-2xl border border-violet-200 bg-[#0b0416] p-5 shadow-[0_20px_60px_rgba(91,33,182,0.18)] backdrop-blur-md">
+                <div className="rounded-2xl border border-violet-200 dark:border-slate-800 bg-violet-100 dark:bg-[#0b0416]  p-5 shadow-[0_20px_60px_rgba(91,33,182,0.18)] backdrop-blur-md">
                   {/* Category */}
-                  <p className="text-xs font-semibold tracking-widest text-violet-600">
+                  <p className="text-sm font-semibold tracking-widest text-violet-600">
                     {project.category}
                   </p>
 
                   {/* Title */}
-                  <h3 className="mt-2 text-lg font-bold text-slate-400">
+                  <h3 className="mt-2 text-lg font-bold text-slate-600 dark:text-slate-400">
                     {project.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="mt-2 text-sm leading-6 text-slate-400">
+                  <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
                     {project.description}
                   </p>
 
@@ -133,7 +133,7 @@ const SelectedWorks = () => {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-violet-200 bg-violet-300 px-3 py-1 text-xs font-medium text-violet-800"
+                        className="rounded-full border border-violet-200  dark:border-slate-700 bg-violet-200 dark:bg-slate-800 px-3 py-1 text-xs font-medium text-slate-700 dark:text-violet-300"
                       >
                         {tech}
                       </span>
@@ -166,7 +166,8 @@ const SelectedWorks = () => {
                       h-4 w-4 -translate-x-1/2
                       rotate-45 border-b border-r
                       border-violet-200
-                      bg-violet-950
+                      bg-violet-300
+                      dark:bg-violet-950
                     "
                   />
                 </div>
@@ -176,8 +177,8 @@ const SelectedWorks = () => {
               <div
                 className="
                   relative overflow-hidden rounded-[20px]
-                  border border-violet-100
-                  bg-white
+                  border border-slate-200 dark:border-slate-700
+                  bg-slate-100 dark:bg-slate-950
                   shadow-sm
                   transition-all duration-500
                   group-hover:-translate-y-1
@@ -227,11 +228,11 @@ const SelectedWorks = () => {
                 {/* Bottom content */}
                 <div className="flex items-center justify-between px-5 py-4">
                   <div>
-                    <p className="text-xs font-medium text-slate-400">
+                    <p className="text-sm font-semibold text-violet-600 dark:text-violet-400">
                       {project.category}
                     </p>
 
-                    <h3 className="mt-1 line-clamp-1 text-base font-bold text-slate-900">
+                    <h3 className="mt-1 line-clamp-1 text-xs font-normal text-slate-600 dark:text-slate-400">
                       {project.title}
                     </h3>
                   </div>
@@ -239,17 +240,19 @@ const SelectedWorks = () => {
                   <a
                     href={project.link}
                     className="
-                      md:hidden flex h-10 w-10 shrink-0
+                      md:hidden flex h-10 w-34 shrink-0 p-1 
                       items-center justify-center
-                      rounded-full
-                      bg-violet-50
-                      text-violet-700
+                      rounded-3xl
+                      font-semibold
+                      bg-violet-700
+                      text-slate-300
                       transition-all duration-300
-                      group-hover:bg-violet-700
+                      group-hover:bg-violet-800
                       group-hover:text-white
                     "
                   >
-                    <LuArrowUpRight size={18} />
+                    Live Demo
+                    <LuArrowUpRight size={23} className=" ml-2" />
                   </a>
                 </div>
               </div>

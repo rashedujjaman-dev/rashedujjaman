@@ -1,4 +1,3 @@
-
 'use client'
 import Image from 'next/image'
 import { motion } from "motion/react"
@@ -51,11 +50,11 @@ const PhotoHero = () => {
             opacity: 1,
             transition: { delay: 0.5, duration: 0.4, ease: "easeInOut" },
           }}
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
+          className="absolute top-1/2 md:top-65 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
         >
-          <div className="w-68 h-68 md:w-110 md:h-110 mix-blend-lighten overflow-hidden rounded-full">
+          <div className="w-80 h-80 md:w-130 md:h-140 mix-blend-lighten overflow-hidden rounded-full">
             <Image
-              src="/images/HeroPic.png" width={500} height={500}
+              src="/images/HeroPicBest.webp" width={500} height={500}
               alt="heroImage"
               quality={100}
               className="object-contain w-full h-full"
@@ -64,17 +63,17 @@ const PhotoHero = () => {
           </div>
         </motion.div>
         <svg
-          className="w-85 h-74 md:w-120 md:h-120"
-          viewBox="0 0 506 506"
+          className="w-85 h-85 md:w-145 md:h-140"
+          viewBox="0 0 502 502"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           {circleColors.map((color, index) => (
             <motion.circle
               key={index}
-              cx="253"
-              cy="253"
-              r={243 - index * 15}
+              cx="250"
+              cy="256"
+              r={241 - index * 15}
               stroke={color}
               strokeWidth="4"
               strokeLinecap="round"

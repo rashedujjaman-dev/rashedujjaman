@@ -74,7 +74,7 @@ const Header = () => {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 rounded  text-slate-400 hover:text-[#a855f7] transition duration-200 cursor-pointer"
+          className="md:hidden p-2 rounded  text-slate-600 dark:text-slate-300 hover:text-[#a855f7] transition duration-200 cursor-pointer"
         >
           <HiBars3 className="size-10" />
         </button>
@@ -83,7 +83,7 @@ const Header = () => {
       {/* mobile menu  */}
       {isOpen && (
         <div className="md:hidden px-5 pb-4">
-          <div className="flex flex-col gap-3 text-base font-medium text-white/80">
+          <div className="flex flex-col gap-3 text-base font-medium text-slate-700 dark:text-slate-300">
             <Link
               href="#home"
               className="hover:text-[#a855f7] transition duration-200"
