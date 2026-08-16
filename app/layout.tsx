@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rashedujjaman | Software Developer ",
+  title: "Rashedujjaman | Full-stack JavaScript developer ",
   description: "Full-Stack JavaScript Developer specializing in building modern, responsive, and scalable web applications using Next.js, React, TypeScript, Node.js,Tailwind CSS, MongoDB, and Mongoose.",
 };
 
