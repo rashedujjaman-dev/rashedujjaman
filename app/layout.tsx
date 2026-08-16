@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rashedujjaman | Full-stack JavaScript developer ",
-  description: "Full-Stack JavaScript Developer specializing in building modern, responsive, and scalable web applications using Next.js, React, TypeScript, Node.js,Tailwind CSS, MongoDB, and Mongoose.",
+  title: "Rashedujjaman | Full-stack JavaScript developer",
+  
+  description: "Full-Stack JavaScript Developer specializing in building modern, responsive, scalability, SEO Friendly, smooth experience and web applications using Next.js, NextAuth, React, TypeScript,  Node.js,Tailwind CSS, MongoDB, and Mongoose.",
 };
 
 export default function RootLayout({
