@@ -49,7 +49,7 @@ const HeroSection = () => {
           {/* headline */}
           <div className="md:pl-2 text-center md:text-left">
             <p className="text-xl md:text-2xl mb-8">
-              Full-stack JavaScript developer| I specialize in building strong focus, SEO-friendly, fully responsive web applications & Superior Software for Leading Businesses using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
+              Full-stack JavaScript developer| I specialize in building strong focus, SEO friendly, fully responsive web applications & Superior Software for Leading Businesses using Next.js, React, TypeScript, Tailwind CSS, MongoDB & Mongoose.
             </p>
 
             <h1 className="text-xl sm:text-2xl font-normal tracking-tight leading-[1.15] not-dark:text-slate-600 text-slate-300">

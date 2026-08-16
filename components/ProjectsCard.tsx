@@ -19,7 +19,7 @@ const projects: Project[] = [
     category: "E-COMMERCE",
     description:
       "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
-    image: "images/shoplix.png",
+    image: "images/shoplix.webp",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
     link: "https://shoplix-nine.vercel.app/",
   },
@@ -28,7 +28,7 @@ const projects: Project[] = [
     category: "E-commerce",
     description:
       "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
-    image: "images/ecommercemade.png",
+    image: "images/ecommercemade.webp",
     technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
     link: "https://ecommerce-made.vercel.app/",
   },
@@ -37,7 +37,7 @@ const projects: Project[] = [
     category: "E-COMMERCE",
     description:
       "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
-    image: "images/classybuy.png",
+    image: "images/classybuy.webp",
     technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
     link: "https://classybuy.vercel.app/",
   },
@@ -46,7 +46,7 @@ const projects: Project[] = [
     category: "E-COMMERCE",
     description:
       "A modern e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
-    image: "images/rajfurniture.png",
+    image: "images/rajfurniture.webp",
     technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
     link: "https://stellular-dragon-7999f8.netlify.app/",
   },
@@ -55,7 +55,7 @@ const projects: Project[] = [
     category: "E-COMMERCE",
     description:
       "A modern e-commerce  for managing products, orders,  categories and business analytics from one place.",
-    image: "images/foodflavor.png",
+    image: "images/foodflavor.webp",
     technologies: ["React",   "Tailwind"],
     link: "https://food-flavor-smoky.vercel.app/",
   }, 
@@ -64,7 +64,7 @@ const projects: Project[] = [
     category: "E-COMMERCE",
     description:
       "A modern e-commerce  for managing products, orders,  categories and business analytics from one place.",
-    image: "images/rajplus.png",
+    image: "images/rajplus.webp",
     technologies: ["JavaScript",  "Css"],
     link: "https://slideshow-brown.vercel.app",
   },
