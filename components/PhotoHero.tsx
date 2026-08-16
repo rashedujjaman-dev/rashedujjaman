@@ -54,13 +54,26 @@ const PhotoHero = () => {
         >
           <div className="w-80 h-80 md:w-130 md:h-140 mix-blend-lighten overflow-hidden rounded-full">
             <Image
+              src="/images/HeroPicBest.webp" width={400} height={400}
+              alt="Rashedujjaman's Profile Photo"
+              quality={100}
+              sizes="(max-width: 768px) 248px, 400px"
+              className="object-contain w-full h-full"
+              priority={true}
+            />
+          </div>
+
+
+          
+          {/*         <div className="w-80 h-80 md:w-130 md:h-140 mix-blend-lighten overflow-hidden rounded-full">
+            <Image
               src="/images/HeroPicBest.webp" width={500} height={500}
               alt="heroImage"
               quality={100}
               className="object-contain w-full h-full"
               priority={true}
             />
-          </div>
+          </div> */}
         </motion.div>
         <svg
           className="w-85 h-85 md:w-145 md:h-140"
