@@ -17,7 +17,7 @@ const linksData = [
   { icon: <FaX />, href: "https://x.com/rashedjaman_dev" },
   // { icon: <FaInstagram />, href: "https://www.instagram.com/rashedjamanraj" },
   {icon: <FaWhatsapp />, href: "https://wa.me/rashedujjaman.dev"}, 
-  { icon: <FaFacebook />, href: "http://facebook.com./rashedujjaman.dev" },
+  { icon: <FaFacebook />, href: "http://facebook.com./rasedujjaman.dev" },
   // {icon: <FaTelegram />, href: "https://t.me/rashedjamanraj"}, 
 ];
 
