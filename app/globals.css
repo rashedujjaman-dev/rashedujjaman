@@ -3,6 +3,9 @@
 
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant not-dark (&:where(:not(.dark, .dark *)));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,11 +22,9 @@ html {
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0b0416;
-    --foreground: #ffffff;
-  }
+.dark {
+  --background: #0b0416;
+  --foreground: #ffffff;
 }
 
 body {
