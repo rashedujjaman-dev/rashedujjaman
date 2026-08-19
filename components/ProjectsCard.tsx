@@ -74,7 +74,7 @@ const SelectedWorks = () => {
   return (
     <section
       id="projects"
-      className="max-w-7xl mx-auto px-5 md:px-15 py-16"
+      className="max-w-7xl mx-auto px-5 md:px-15 py-6"
     >
       <div className="max-w-375">
         {/* Header */}
