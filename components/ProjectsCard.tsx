@@ -18,45 +18,45 @@ const projects: Project[] = [
     title: "Shoplix — E-commerce",
     category: "E-COMMERCE",
     description:
-      "A modern full-stack e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
+      "A modern financial management e-commerce platform with  product management, shopping cart, orders, checkout, secure online payment, categories and business analytics from one place. .",
     image: "images/shoplix.webp",
-    technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
+    technologies: ["Next.js", "OAuth", "TypeScript", "Stripe", "Tailwind", "Firebase" ],
     link: "https://shoplix-nine.vercel.app/",
   },
   {
     title: "E-commerce Made - E-commerce Platform",
     category: "E-commerce",
     description:
-      "A full-stack financial management platform for subscription management, payment tracking, savings and financial reporting.",
+      "A modern e-commerce  for managing products, shopping cart, orders, checkout,  categories and business analytics from one place.",
     image: "images/ecommercemade.webp",
-    technologies: ["Next.js", "MongoDB", "NextAuth", "Cloudinary"],
+    technologies: ["Next.js", "TypeScript", "Shadcn", "Tailwind", ],
     link: "https://ecommerce-made.vercel.app/",
   },
   {
     title: "ClassyBuy — A modern E-COMMERCE",
     category: "E-COMMERCE",
     description:
-      "A modern e-commerce dashboard for managing products, orders, users, categories and business analytics from one place.",
+      "A modern e-commerce dashboard for managing products, Filtering, orders, users, categories and business analytics from one place.",
     image: "images/classybuy.webp",
-    technologies: ["Next.js", "React", "Tailwind", "MongoDB"],
+    technologies: ["React", "Tailwind"],
     link: "https://classybuy.vercel.app/",
   },
   {
     title: "Raj Furniture A modern E-COMMERCE Website",
     category: "E-COMMERCE",
     description:
-      "A modern e-commerce platform with authentication, product management, shopping cart, checkout and secure online payment.",
+      "A modern e-commerce  for managing products, shopping cart, orders, checkout,  categories and business analytics from one place.",
     image: "images/rajfurniture.webp",
-    technologies: ["Next.js", "MongoDB", "TypeScript", "Stripe"],
+    technologies: ["React", "MongoDB"],
     link: "https://stellular-dragon-7999f8.netlify.app/",
   },
   {
     title: "Food Flavor - A modern E-COMMERCE Website",
     category: "E-COMMERCE",
     description:
-      "A modern e-commerce  for managing products, orders,  categories and business analytics from one place.",
+      "A modern e-commerce  for managing products, shopping cart, orders, checkout,  categories and business analytics from one place.",
     image: "images/foodflavor.webp",
-    technologies: ["React",   "Tailwind"],
+    technologies: ["React",   "TailwindCss"],
     link: "https://food-flavor-smoky.vercel.app/",
   }, 
   {
