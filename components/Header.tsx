@@ -38,7 +38,7 @@ const Header = () => {
             width={56}
             height={56}
             priority
-            className="h-14 w-14 cursor-pointer"
+            className="h-12 w-12 cursor-pointer"
           />
         </Link>
 

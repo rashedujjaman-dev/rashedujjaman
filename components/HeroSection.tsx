@@ -38,8 +38,8 @@ const HeroSection = () => {
                     />
                   </div>
                   <div className=" text-3xl -mt-5 md:-mt-10 shrink-0">
-                    <span className=" not-dark:text-slate-500 ">Hello! I am </span>
-                    <span className="text-[#a78bfa]">Rashedujjaman</span>
+                    <span className="dark:text-slate-200 text-slate-800 ">Hello! I am </span>
+                    <span className="text-violet-700 dark:text-violet-400">Rashedujjaman</span>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const HeroSection = () => {
               <span className="block">
                 high-converting web apps & websites for{" "}
                 <span className="relative inline-block align-baseline">
-                  <span className="relative z-10 text-[#7127BA]">
+                  <span className="relative z-10  text-violet-600 dark:text-violet-400">
                     global businesses
                   </span>
                   <span className="pointer-events-none absolute -inset-x-2  -inset-y-2 translate-y-1 -z-10 rotate-12">

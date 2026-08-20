@@ -37,22 +37,22 @@ const ThemeToggle = () => {
         flex h-10 items-center justify-center gap-2
         rounded-full px-4
         border border-gray-300
-        bg-gray-100
+        bg-violet-100
         text-slate-800
         transition-all duration-300
         hover:scale-105
-        hover:bg-gray-300
+        hover:bg-violet-50
         dark:border-slate-600
-        dark:bg-slate-900
+        dark:bg-violet-950
         dark:text-white
-        dark:hover:bg-slate-700
+        dark:hover:bg-violet-900
          cursor-pointer
       "
     >
       {isDark ? (
-        <LuSun size={20} className="text-amber-400" />
+        <LuSun size={20} className="text-violet-100" />
       ) : (
-        <BsFillMoonStarsFill size={20} className="text-indigo-600" />
+        <BsFillMoonStarsFill size={20} className="text-violet-900" />
       )}
       <span className="text-sm font-medium">{isDark ? "Light" : "Dark"}</span>
     </button>
